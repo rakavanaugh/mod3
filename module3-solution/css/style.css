@@ -1,0 +1,107 @@
+body {
+font-size: 16px color: #FFFFFF;
+background-color: #276d61;
+font-family: Helvetica, sans-serif;
+}
+
+/* NAVBAR HEADER */
+
+#header-nav {
+	background-color: #75787b;
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #020D1D;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #020D1D;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+ 
+}
+#nav-list a span {
+  font-size: 1.5em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #020D1D;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+div#collapsable-nav.navbar-collapse.collapse.in {
+	background-color: #D6D9DC;
+	opacity: .8;
+}
+
+/* MAIN CONTENT OUR MENU */
+
+#main-content{
+	color: #000000;
+}
+
+div.section {
+	background-color: #75787b;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand h1 {
+  font-size: 5vw;
+
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  
+}
