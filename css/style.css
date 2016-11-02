@@ -1,5 +1,5 @@
 body {
-font-size: 16px color: #FFFFFF;
+font-size: 18px color: #FFFFFF;
 background-color: #276d61;
 font-family: Helvetica, sans-serif;
 }
@@ -35,8 +35,12 @@ font-family: Helvetica, sans-serif;
   text-decoration: none;
 }
 
+
+
 #nav-list {
-  margin-top: 10px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #276d61;
 }
 #nav-list a {
   color: #020D1D;
@@ -60,9 +64,14 @@ font-family: Helvetica, sans-serif;
   margin-top: -30px;
 }
 
-div#collapsable-nav.navbar-collapse.collapse.in {
-	background-color: #D6D9DC;
-	opacity: .8;
+div#collapsable-nav {
+  padding: 0px;
+}
+
+.navbar-collapse {
+  border-top: 1px;
+  border-color: #000000;
+  border-width: 95%;
 }
 
 /* MAIN CONTENT OUR MENU */
@@ -77,8 +86,19 @@ div.section {
 	margin-bottom: 10px;
 }
 
+h2 {
+  font-weight: bold;
+}
+
 h4 {
 	font-weight: bold;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 95%;
+  color: black;
 }
 
 /********** Large devices only **********/
